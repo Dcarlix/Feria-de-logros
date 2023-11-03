@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de DS "A"</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-code-alt'></i>
+                <div class="logo_name">DS "A"</div>
+            </div>
+            <i class='bx bx-menu' id='btn'></i>
+        </div>
+
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class='bx bx-news'></i>
+                    <span class="link_name">Inicio</span>
+                </a>
+                <span class="tooltip">Inicio</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-info-square'></i>
+                    <span class="link_name">Que es DS</span>
+                </a>
+                <span class="tooltip">Que es DS</span>
+            </li>
+            <li>
+                <a href="INDEX1.HTML">
+                    <i class='bx bxs-group'></i>
+                    <span class="link_name">Colaboradores</span>
+                </a>
+                <span class="tooltip">Colaboradores</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="home_content">
+        <div class="text">TAPS</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <article>
+                <p>En esta parte de aqui es donde ira la info de cada pagina chicos :v a a a a a a a a a a a a a a a a a a a a a a a a a a a a a b
+            </article>
+        </section>
+    </div>
+    
+    <aside class="aside">
+        <div class="aside-container">
+            <div class="aside-content">
+                <!-- Contenido del aside -->
+                <h2>Logros de DS "A"</h2>
+                <p>Estos de aquí son algunos de los proyectos que el 1° de Desarrollo de Software sección A, realizo lo largo del año, como maquetas, productos, programas y páginas y sitios web</p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        // JavaScript para abrir/cerrar el sidebar y ajustar el aside
+        let btn = document.querySelector('#btn');
+        let sidebar = document.querySelector('.sidebar');
+
+        btn.onclick = function(){
+            sidebar.classList.toggle('active');                                                                  
+        }
+    </script>
+</body>
+</html>

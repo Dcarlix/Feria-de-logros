@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de DS "A"</title>
+    <link rel="stylesheet" href="CSS/styleINDEX.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-code-alt'></i>
+                <div class="logo_name">TAPS</div>
+            </div>
+            <i class='bx bx-menu' id='btn'></i>
+        </div>
+
+        <ul class="nav">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-news'></i>
+                    <span class="link_name">Inicio</span>
+                </a>
+                <span class="tooltip">Inicio</span>
+            </li>
+            <li>
+                <a href="desarrollo.html">
+                    <i class='bx bx-info-square'></i>
+                    <span class="link_name">Que es DS</span>
+                </a>
+                <span class="tooltip">Que es DS</span>
+            </li>
+            <li>
+                <a href="colaboradores.html">
+                    <i class='bx bxs-group'></i>
+                    <span class="link_name">Colaboradores</span>
+                </a>
+                <span class="tooltip">Colaboradores</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="home_content">
+        <div class="header_falso">
+            <p>Inicio</p>
+            <table class="text_table">
+                <tr> 
+                    <td> <div class="title">TAPS</div> </td>
+                    <td> <img src="imagenes/TAPS.png" class="logo"/> </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <nav class="navegador">
+            <ul>
+                <li><a href="#BIEN" class="links">Bienvenido</a></li>
+                <li><a href="#QUE" class="links">Nuestro proyecto</a></li>
+                <li><a href="#NOM" class="links">Nuestro nombre</a></li>
+            </ul>
+        </nav>
+        <br>
+        <section>
+            <article class="texto">
+                <br>
+                <div class="subtitulos" id="BIEN">Bienvenidos</div>
+                <br>
+                <p>
+                    Bienvenido a el sito web de TAPS, nosotros somos un sitio que busca el promocionar a los nuevos estudiantes y futuros
+                    bachilleres la carrera de Desarrollo de Software, les mostraremos como es esta carrera, que se hace, que hemos logrado
+                </p>
+                <br>
+                <br>
+                <div class="subtitulos" id="QUE">¿Qué es nuestro proyecto?</div>
+                <br>
+                <p>
+                    Por ejemplo, la pagina que estan viendo es un proyecto que hemos trabajado para esta feria de logros, pero ¿qué es la feria
+                    de logros y qué es nuestro proyecto? Bueno las ferias de logros se trata de mostrar y celebrar los logros y éxitos de un grupo 
+                    de estudiantes en particular. Ahora lo logros que hemos obtenido a lo largo del año es muy variado debido a que 
+                    en la mayoría del tiempo adquirimos el conocimiento de herramientas y aplicaciones muy útiles, teniendo en cuenta el desarrollo 
+                    de software y animaciones al igual que proyectos útiles para un mejor enfoque visible e importante.
+                </p>
+                <br>
+                <br>
+                <p>
+                    Nuestro proyecto es un sitio web donde podremos encontrar diferentes apartados como también alguna que otra pregunta sin mencionar
+                    que a lo largo de la pagina se les brindara información sobre nuestros proyectos y demás artículos. Algunas paginas son Inicio, ¿Qué es
+                    Desarrollo de Software? y Colaboradores. En estas tres se reparte información acerca de nuestra especialidad y detalles de logros
+                    que realizamos.
+                </p>
+                <br>
+                <br>
+                <div class="subtitulos" id="NOM">¿Por qué? el nombre</div>
+                <br>
+                <p>
+                    El nombre de nuestro sitio web es TAPS, que significa “Tecnología, Animaciones, Proyectos y Software” se escogió precisamente el siguiente nombre ya que como se menciona 
+                    son apartados y temas que se han visto e implementado a lo largo del año, tale es el caso como la creación y elaboración de animaciones
+                    y la implementación de los proyectos y el desarrollo de software, además que claro tenemos también el desarrollo sobre páginas webs
+                </p>
+                <br>
+                <img src="imagenes/TAPS.png" class="logito">
+                <br>
+                <p>
+                    Pero bueno, empezemos a navegar por nuestro sitio web para aprender de que es nuestra carrera y que hemos logrado
+                </p>
+                <br>
+                <div class="footer_falso">
+                    <p id="link"><a href="feria de logritos XD/INDEX1.HTML">Conocenos</a></p>
+                    <p id="copy2">Feria de logros INDEL 2023</p>
+                    <p id="copy">1° Desarrollo de Software a</p>
+                </div>
+            </article>
+        </section>
+    </div>
+    <script>
+        // JavaScript para abrir/cerrar el sidebar y ajustar el aside
+        let btn = document.querySelector('#btn');
+        let sidebar = document.querySelector('.sidebar');
+
+        btn.onclick = function(){
+            sidebar.classList.toggle('active');                                                                  
+        }
+    </script>
+</body>
+</html>
